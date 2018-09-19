@@ -1,0 +1,166 @@
+@font-face{
+	font-family: 'Hammersmith';
+	src: url('../fonts/hms/hor.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair';
+	src: url('../fonts/playfair/PlayfairDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair';
+	src: url('../fonts/playfair/PlayfairDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair_black';
+	src: url('../fonts/playfair/PlayfairDisplay-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto_thin';
+	src: url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto_light';
+	src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto_Black';
+	src: url('../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/brmain.png) no-repeat center top / cover;
+	padding-bottom: 70px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 15px;
+	float: left;
+}
+
+.logoname {
+	font-family: 'Roboto_Thin';
+	font-size: 30pt;
+	margin-top: 15px;
+	margin-left: 12px;
+	color: #01dfd0;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	margin-top: 35px;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-left: 25px;
+	font-size: 13pt;
+	font-family: 'Roboto_black';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu a:hover {
+	color: #00e0d0;
+}
+
+.titlehead {
+	padding-top: 160px;
+	text-align: center;
+}
+
+.titlehead h1 {
+	color: #fff;
+	font-family: 'Playfair_black';
+	font-size: 32pt;
+}
+
+.titlehead p {
+	color: #fff;
+	font-family: 'Roboto_light';
+	font-size: 14pt;
+}
+
+
+.line {
+	border-bottom: 1px solid #00e0d0;
+
+}
+
+.learnmore {
+	margin-top: 50px;
+	font-family: 'Hammersmith';
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.learnmore a {
+	color: #00e0d0;
+	text-decoration: none;
+	border: 1px solid #00e0d0;
+	border-radius: 3px;
+	padding: 13px 20px 13px 20px;
+}
