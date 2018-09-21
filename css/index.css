@@ -134,22 +134,25 @@ nav {
 	color: #fff;
 	font-family: 'Playfair_black';
 	font-size: 32pt;
+	margin-bottom: 30px;
+	padding: 0;
 }
 
 .titlehead p {
 	color: #fff;
 	font-family: 'Roboto_light';
 	font-size: 14pt;
+	padding-top: 0;
+	margin-top: 30px;
 }
-
 
 .line {
 	border-bottom: 1px solid #00e0d0;
-
+	width: 50px;
 }
 
 .learnmore {
-	margin-top: 50px;
+	margin-top: 55px;
 	font-family: 'Hammersmith';
 	font-size: 15pt;
 	text-transform: uppercase;
@@ -162,5 +165,180 @@ nav {
 	text-decoration: none;
 	border: 1px solid #00e0d0;
 	border-radius: 3px;
-	padding: 13px 20px 13px 20px;
+	padding: 10px 25px 10px 25px;
+}
+
+.ourstory {
+	padding-top: 70px;
+}
+
+.titlelogo {
+	float: left;
+	width: 290px;
+	padding-top: 20px;
+}
+
+.titleabout {
+	float: left;
+	padding-left: 100px;
+	color: #413d4b;
+	width: 630px;
+}
+
+.titleabout h2 {
+	font-size: 22pt;
+	font-family: 'playfair';
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.titleabout p {
+	font-size: 14pt;
+	font-family: 'Roboto_light';
+	color: #716e78;
+
+}
+
+.learnmoreabout {
+	margin-top: 35px;
+	font-family: 'Hammersmith';
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.learnmoreabout a {
+	color: #00e0d0;
+	text-decoration: none;
+	border: 1px solid #00e0d0;
+	border-radius: 3px;
+	padding: 10px 25px 10px 25px;
+}
+
+.videoabout {
+	background: url(../img/videoprev.png) no-repeat center top / cover;
+	height: 650px;
+}
+
+.expertise {
+	padding-top: 70px;
+}
+
+.titleexpertise {
+	text-align: center;
+	color: #413d4b;
+}
+
+.titleexpertise h2 {
+	font-family: 'playfair';
+	font-weight: bold;
+	font-size: 22pt;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.titleexpertise p {
+	font-family: 'playfair';
+	font-size: 14pt;
+	color: #636268;
+	margin: 0;
+	padding: 0;
+}
+
+.lineexp {
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 50px;
+	padding-top: 18px;
+}
+
+.expobject {
+	text-align: center;
+	width: 310px;
+	border-bottom: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	padding-top: 30px;
+	padding: 20px;
+	float: left;
+}
+
+.expobject h3 {
+	font-size: 14pt;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	color: #413d4b;
+}
+
+.expobject p {
+	font-family: 'Roboto_light';
+	font-size: 14pt;
+}
+
+.expobjectlast {
+	text-align: center;
+	width: 310px;
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 30px;
+	padding: 20px;
+	float: left;
+}
+
+.expobjectlast h3 {
+	font-size: 14pt;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	color: #413d4b;
+}
+
+.expobjectlast p {
+	font-family: 'Roboto_light';
+	font-size: 14pt;
+}
+
+.expobjects {
+	padding-bottom: 570px;
+}
+
+.expobjectlast2 {
+	text-align: center;
+	width: 310px;
+	padding-top: 30px;
+	padding: 20px;
+	float: left;
+}
+
+.expobjectlast2 h3 {
+	font-size: 14pt;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	color: #413d4b;
+}
+
+.expobjectlast2 p {
+	font-family: 'Roboto_light';
+	font-size: 14pt;
+}
+
+.expobject2 {
+	text-align: center;
+	width: 310px;
+	border-right: 1px solid #ebebeb;
+	padding-top: 30px;
+	padding: 20px;
+	float: left;
+}
+
+.expobject2 h3 {
+	font-size: 14pt;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	color: #413d4b;
+}
+
+.expobject2 p {
+	font-family: 'Roboto_light';
+	font-size: 14pt;
 }
