@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-	font-family: 'PT Serif';
+	font-family: 'Montserrat';
 	color: #fff;
 }
 
@@ -53,8 +53,44 @@ p {
 @media screen and (max-width: 1200px) {
 	.container {
 		margin-left: 10px;
-		margin-right: 0;
+		margin-right: 10px;
 	}
+
+	.main-header {
+		flex-direction: column;
+	}
+
+	.navbar {
+		padding-top: 20px;
+	}
+
+	.carsell {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.formsell {
+		margin-top: 120px;
+	}
+
+	title {
+	}
+
+	h1 {
+		
+		text-align: center;
+		margin: 0;
+	}
+	span {
+		padding-left: 20px;
+	}
+
+	p {
+		font-size: 0.2em;
+		text-align: center;
+	}
+	
 
 }
 
@@ -122,8 +158,8 @@ nav a:hover {
 }
 
 .formsell input {
-	font-family: 'pt-serif';
-	font-size: 20px;
+	font-family: 'Montserrat';
+	font-size: 15px;
 	padding: 0 0 0px 20px;
 	color: #130e27;
 }
@@ -167,8 +203,8 @@ nav a:hover {
 }
 
 .label {
-	font-family: 'pt-serif';
-	font-size: 20px;
+	font-family: 'montserrat';
+	font-size: 15px;
 	color: #130e27;
 }
 
